@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>reviews</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="manager">
+        <div class="avatar"></div>
+        <div class="name">
+          <p>Вероника Ростова</p>
+          <p class="pos">Менеджер по продажам</p>
+        </div>
+        <div class="adv">
+          <p id="quote">Подберу для вас самые лучшие предложния. Мои услуги абсолютно бесплатны</p>
+        </div>
+      </div>
+      <div class="wraper">
+        <div class="servises">
+          <h6><span>Услуг</span></h6>
+          <div class="servlist">
+            <div class="servname">
+              <div><p>Ручное бронирование</p></div>
+              <div><p>Пакетные_туры</p></div>
+              <div><p>Отели</p></div>
+            </div>
+            <div class="servamount">
+              <p>12</p>
+              <p>3</p>
+              <p>1</p>
+            </div>
+          </div>
+          <div class="sum">
+            <p>Всего</p>
+            <p>15</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="comminf">
+        <div class="review">
+          <p>Последнии отзывы</p>
+          <a class="link"href="#">Все отзывы</a>
+        </div>
+        <div class="feedb">
+        <label  for="">
+         <div id="like" onclick="countLikes()"></div><div id="plusLike">0</div></label>
+        <label>
+        <div class="commcount"></div><div id="plusCom">0</div></label>
+        </div>
+      </div>
+      <div id="commbl">
+        <div id="commList">
+
+        </div>
+      <!-- There will comments--></div>
+    </div>
+    <div class="comminp">
+      <div class="wrapper">
+        <textarea id="comment" name="comment" cols="40" rows="3" ></textarea>
+        <button id="button" type="button" name="button" >Написать консультанту</button>
+      </div>
+
+    </div>
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

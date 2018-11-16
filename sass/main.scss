@@ -1,0 +1,312 @@
+/* Код для подключения шрифта в /css/stylename.css */
+
+/* font-family: "ArialRegular"; */
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular/ArialRegular.eot");
+    src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialBold"; */
+@font-face {
+    font-family: "ArialBold";
+    src: url("../fonts/ArialBold/ArialBold.eot");
+    src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+    url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialItalic"; */
+@font-face {
+    font-family: "ArialItalic";
+    src: url("../fonts/ArialItalic/ArialItalic.eot");
+    src: url("../fonts/ArialItalic/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialItalic/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialBlack"; */
+@font-face {
+    font-family: "ArialBlack";
+    src: url("../fonts/ArialBlack/ArialBlack.eot");
+    src: url("../fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBlack/ArialBlack.woff") format("woff"),
+    url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialBoldItalic"; */
+@font-face {
+    font-family: "ArialBoldItalic";
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot");
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+*{
+  margin: 0 0 ;
+  padding: 0 0 ;
+}
+body{
+  margin: 0 auto;
+
+}
+
+  .wrap {
+    width: 88%;
+    max-width: 633px;
+    margin: 0 auto;
+    position: relative;
+    .manager{
+      position: relative;
+      padding-top: 20px;
+      width: 100%;
+      height: 120px;
+      .avatar{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-image: url(../img/face.png);
+      }
+      .name {
+        margin-top: 10px;
+        margin-left: 130px;
+        p{
+          font:18px ArialRegular;
+        }
+        .pos{
+          font: normal 12px ArialRegular;
+          color: #808080;
+        }
+      }
+      .adv{
+        margin-top: 10px;
+        font: normal 14px ArialRegular;
+        margin-left: 30px;
+        background: #fffbc8;
+        width: auto;
+        border-radius: 5px;
+        border: 1px #bbb solid;
+      p{
+        padding: 12px 0 12px 100px;
+      }
+      }
+    }
+    .wraper{
+      overflow: auto;
+      .servises{
+        width: 80%;
+        min-width: 310px;
+        float: right;
+        h6{
+          padding-bottom: 10px;
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 45px;
+          font: 13px ArialRegular;
+        }
+        .servlist{
+          height: 105px;
+          border-top: 1px #999 solid;
+          border-bottom: 1px #999 solid;
+          display: flex;
+          justify-content: space-between;
+          padding-right: 45px;
+          align-items: center;
+        }
+        .servname{
+          width: 220px;
+          height: 75px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          box-shadow: inset 1px 0 0 0 #b2b2b2;
+          p{
+            padding: 4px 7px;
+            font: 13px ArialRegular;
+          }
+        }
+        .servname div:first-child{
+          width: 220px;
+          background: #b1e19b;
+          height: 24px;
+          border-left: 1px solid #83b26d;
+          border-radius: 0 2px 2px 0;
+        }
+        .servname div:nth-child(2){
+          width: 54px;
+          background: #ace2f8;
+          height: 24px;
+          border-left: 1px solid #7eb4ca;
+          border-radius: 0 2px 2px 0;
+        }
+        .servname div:nth-child(3){
+          width: 36px;
+          background: #ace2f8;
+          height: 24px;
+          border-left: 1px solid #7eb4ca;
+          border-radius: 0 2px 2px 0;
+        p{
+          width: auto;
+        }
+
+        }
+        .servamount{
+          height: 75px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          width: 20px;
+          font:bold 13px ArialBold;
+        }
+        .sum{
+          display: flex;
+          justify-content: space-between;
+          padding-top: 15px;
+          padding-right: 40px;
+          font:bold 16px ArialBold;
+        }
+      }
+
+    }
+  }
+  .comminf{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .review{
+      display: flex;
+      width: 240px;
+      justify-content: space-between;
+      font:bold 15px ArialBold;
+      a{
+        font:normal 15px ArialRegular;
+      }
+    }
+    .feedb{
+      width: 85px;
+      display: flex;
+      justify-content: space-between;
+      label{
+        font-size: 12px;
+        display: flex;
+
+      }
+      #like{
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+        background-image: url(../img/like.png);
+        cursor: pointer;
+      }
+      .commcount{
+        margin-right: 8px;
+        width: 13px;
+        height: 14px;
+        background-image: url(../img/com.png);
+      }
+    }
+  }
+  #commList{
+    min-height:calc( 100vh - 565px ) ;
+  }
+  .cont{
+    div:first-child{//name from js
+      margin-top: 20px;
+      margin-right: 10px;
+      font:bold 14px ArialBold;
+      float: left;
+    }
+    div:nth-child(2){//date from js
+      padding-top: 22px;
+      font: 11px ArialRegular;
+      color: #999;
+
+    }
+    div:last-child {//comment from js
+
+      font: 14px ArialRegular;
+      padding: 20px;
+      margin-top: 5px;
+      word-wrap: break-word;
+      background-image: url(../img/bg.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+    }
+  }
+  .comminp{
+    height: 190px;
+
+    margin-top: 20px;
+    position: relative;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #comment{
+      margin-top: 28px;
+      width: calc(100% - 30px) ;
+      height: 50px;
+      border: 1px #999 solid;
+      border-radius: 3px;
+      padding: 15px;
+      font-size: 15px;
+      resize: none;
+    }
+    button{
+      margin: 28px auto;
+      width: 280px;
+      height: 40px;
+      border-radius: 20px;
+      background: #fdd639;
+      border: none;
+      font:bold 16px ArialBold;
+      cursor: pointer;
+
+    }
+    button:focus{
+    outline: 0;
+    }
+    .wrapper{
+      width: 88%;
+      max-width: 633px;
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .adv{
+
+      #quote{
+        font-size: 12px;
+          padding: 7px 0 7px 100px;
+      }
+    }
+    .review{
+      p, a.link{
+        font-size: 12px;
+      }
+
+    }
+  }
